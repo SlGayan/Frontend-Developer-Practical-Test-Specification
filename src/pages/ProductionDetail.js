@@ -119,7 +119,7 @@ export default function ProductDetails() {
       ))}
 
       {/* ADD TO CART BUTTON */}
-      <div style={{ marginTop: "25px"  }}>
+      <div style={{ display:"flex", justifyContent: "start",gap: "15px", marginTop: "25px"  }}>
         <button
           onClick={handleAddToCart}
           style={{
@@ -129,6 +129,7 @@ export default function ProductDetails() {
             fontSize: "16px",
             borderRadius: "8px",
             cursor: "pointer",
+           
           }}
         >
           Add to Cart
@@ -143,8 +144,7 @@ export default function ProductDetails() {
             fontSize: "16px",
             borderRadius: "8px",
             cursor: "pointer",
-            marginLeft: "25px",
-            paddingLeft: "25px",
+            
           }}
         >
           Back to Products
