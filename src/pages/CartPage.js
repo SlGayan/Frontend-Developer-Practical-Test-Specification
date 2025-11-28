@@ -57,7 +57,8 @@ export default function CartPage() {
 
   return (
     <div style={{ padding: "20px", maxWidth: "900px", margin: "auto" }}>
-      <h2>Your Cart</h2>
+      <h1>Product Cart</h1>
+      
       <hr />
     
              {/* back to home */} 

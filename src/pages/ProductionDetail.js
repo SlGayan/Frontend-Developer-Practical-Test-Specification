@@ -64,6 +64,7 @@ export default function ProductDetails() {
 
   return (
     <div style={{ padding: "20px", maxWidth: "900px", margin: "auto" }}>
+      <h1>Product Details</h1>
       <img
         src={imageBase + product.cover_image}
         style={{ width: "350px", borderRadius: "10px" }}
